@@ -1,0 +1,18 @@
+-- SELECT "student_id", 
+--     SUM(CASE WHEN "subject_id" = 1 THEN "total" ELSE 0 END) AS 'ENGINEERS FOR BIOLOGY',
+--     SUM(CASE WHEN "subject_id" = 2 THEN "total" ELSE 0 END) AS 'ALGORITHMS OF ANALYSIS AND DESIGN ',
+--     SUM(CASE WHEN "subject_id" = 3 THEN "total" ELSE 0 END) AS 'SYSTEM EMBEDDED AND MICROCONTROLLER',
+--     SUM(CASE WHEN "subject_id" = 4 THEN "total" ELSE 0 END) AS 'SYSTEM OPERATING',
+--     SUM(CASE WHEN "subject_id" = 5 THEN "total" ELSE 0 END) AS 'LABORATORY PROGRAMMING PYTHON',
+--     SUM(CASE WHEN "subject_id" = 6 THEN "total" ELSE 0 END) AS 'PROGRAMMING WEB',
+--     SUM(CASE WHEN "subject_id" = 7 THEN "total" ELSE 0 END) AS 'INTERNSHIP INSITUTIONAL INTER/INTRA',
+--     SUM(CASE WHEN "subject_id" = 10 THEN "total" ELSE 0 END) AS 'STATISTICS & PROBABLITY COMPUTING - FOR FOUNDATIONS MATHEMATICAL',
+--     SUM(CASE WHEN "subject_id" = 12 THEN "total" ELSE 0 END) AS 'ETHICS PROFESSIONAL AND VALUES HUMAN UNIVERSAL',
+--     SUM(CASE WHEN "subject_id" = 9 THEN "total" ELSE 0 END) AS 'KANNADA SAMSKRUTIKA',
+--     SUM(CASE WHEN "subject_id" = 8 THEN "total" ELSE 0 END) AS 'KANNADA BALAKE',
+--     SUM(CASE WHEN "subject_id" = 11 THEN "total" ELSE 0 END) AS 'II - MATHEMATICS ADDITIONAL'
+-- FROM "fourth_results"
+-- GROUP BY "student_id";
+
+SELECT *
+FROM "subject_result";

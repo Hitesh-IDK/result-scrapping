@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Change UI</title>
+  </head>
+  <body>
+    <h3 class="title">Solve the captcha!</h3>
+    <p class="usn" data-current="">USN -</p>
+    <div class="captcha__img_container">
+      <img
+        alt="captcha missing"
+        src="public/captcha.png"
+        class="captcha__img"
+      />
+    </div>
+    <div class="captcha__input_container">
+      <input
+        class="captcha__input"
+        data-isready="false"
+        placeholder="Input Captcha"
+        maxlength="6"
+      />
+    </div>
+    <div class="loader_text hidden">Gett</div>
+    <span class="loader hidden"></span>
+    <script src="script.js"></script>
+  </body>
+</html>
